@@ -13,7 +13,7 @@ function resolveHome(filepath) {
 
 if (!generador) {
     console.log("Configuración invalida. Debe haber un archivo `config.mjs` con la siguiente información:\n")
-    console.log("export default", {generador: '<dirección de index.js en el generador de tesis>'}, "\n")
+    console.log("export default", JSON.stringify({generador: '<dirección de index.js en el generador de tesis>'}, null, 2), "\n")
     process.exit(-1)
 }
 
