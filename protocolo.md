@@ -4,6 +4,8 @@
         - Bayardo Falcón
  -->
 
+ [[toc]]
+
 @import secciones/introduccion
 
 @import secciones/antecedentes
