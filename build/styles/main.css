@@ -1,0 +1,190 @@
+/* Estilos únicos para exportar a pdf */
+@media print
+{
+    html, body, h1, h2, h3, h4 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 12pt;
+    }
+
+    /* Normas APA */
+    body {
+        max-width: 16.51cm;
+        margin: 0 auto;
+        line-height: 2;
+        margin: 0 auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h1, h2, h3, h4 {
+        text-transform: capitalize;
+        margin: 0 auto;
+    }
+
+    p {
+        margin: 0 0;
+    }
+
+    li {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    h3 {
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    h4 {
+        display: inline;
+        text-indent: 1.27cm;
+    }
+
+    h5 {
+        display: inline;
+        font-style: italic;
+        text-indent: 1.27cm;
+    }
+
+    code {
+        font-size: 10pt;
+    }
+
+    pre code {
+        font-size: 12pt;
+    }
+
+    /* Fin Normas APA */
+}
+
+/* Estilos únicos para ver en navegador web */
+@media screen {
+    html, body {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    body {
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 0 .25in;
+        overflow-x: hidden;
+    }
+
+    h1 {
+        margin-top: 40pt;
+    }
+}
+
+/* Estilos generales */
+
+/* Normas APA: */
+
+p {
+    text-indent: 1.27cm;
+}
+
+li>p {
+    text-indent: 0;
+}
+
+/* Fin Normas APA */
+
+li:not(:first-child)>h1 {
+    page-break-before: always;
+}
+
+h1:not(:first-child) {
+    page-break-before: always;
+}
+
+a {
+    color: black;
+    word-wrap: break-word;
+}
+
+[contador]::before {
+    content: attr(contador);
+}
+
+.table-of-contents>ol {
+    counter-reset: item;
+}
+
+h2>a, h1>a {
+    text-decoration: none;
+}
+
+.salto {
+    display: block;
+    height: 1px;
+    page-break-before: always;
+}
+
+/* https://stackoverflow.com/a/30326819 */
+ol {
+    counter-reset: item;
+}
+
+ol > li {
+    counter-increment: item;
+}
+
+ol ol > li {
+    display: block;
+}
+
+ol ol > li:before {
+    content: counters(item, ".") ". ";
+    margin-left: -20px;
+}
+/* ------------------------------------ */
+
+pre {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10pt;
+    margin: 0 40pt;
+    background-color: rgb(245, 245, 245);
+    border-radius: 4px;
+}
+
+pre.mermaid-diagram {
+    padding: 0;
+    text-align: center;
+    background-color: transparent;
+}
+
+.mermaid-diagram svg div {
+    padding: 0 !important;
+    font-size: 10pt !important;
+}
+
+.mermaid-diagram * {
+    overflow: visible;
+}
+
+.mermaid-diagram svg {
+    width: 100%;
+}
+
+code {
+    background-color: rgb(238, 238, 238);
+    color: rgb(36, 36, 36);
+    padding: 2pt 4pt;
+    border-radius: 1em;
+}
+
+pre {
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+pre::-webkit-scrollbar {
+    display: none;
+}
+
+pre code {
+    background-color: transparent;
+    padding: 0;
+}
