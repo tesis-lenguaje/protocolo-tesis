@@ -1,0 +1,35 @@
+jobs:
+  compile_pdf:
+    name: Compile pdf
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install WKHTMLToPDF
+        run: |
+          mkdir wkhtmltopdf
+          cd wkhtmltopdf
+          wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.focal_amd64.deb installer.deb
+          sudo apt install installer.deb
+          cd ..
+      - name: Setup Node
+        uses: actions/setup-node@v3.0.0
+      - name: Display the path
+        run: echo %PATH%
+      - name: Make generator folder
+        run: |
+          mkdir generator
+          cd generator
+      - name: Clone Generator
+        uses: actions/checkout@v1
+        with:
+          repository: tesis-lenguaje/generador-tesis     <-- clone https://github.com/org1/repo1
+          ref: refs/heads/main
+      - name: Install Dependencies
+        run: npm ci
+      - run: cd ..
+      - uses: actions/checkout@v1
+      - run: ls
+      
+on:
+  push:
+      branches:
+      - release/*
