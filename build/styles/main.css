@@ -8,10 +8,10 @@
 
     /* Normas APA */
     body {
-        max-width: 16.51cm;
-        margin: 0 auto;
+        /* max-width: 16.51cm; */
+        /* margin: 0 auto; */
+        margin: 2.5cm;
         line-height: 2;
-        margin: 0 auto;
     }
 
     h1 {
@@ -66,9 +66,9 @@
     }
 
     body {
-        max-width: 700px;
-        margin: 0 auto;
-        padding: 0 .25in;
+        /* max-width: 700px; */
+        margin: 2.5cm;
+        /* padding: 0 .25in; */
         overflow-x: hidden;
     }
 
@@ -82,7 +82,7 @@
 /* Normas APA: */
 
 p {
-    text-indent: 1.27cm;
+    text-indent: 5em;
 }
 
 li>p {
@@ -190,6 +190,11 @@ pre code {
 }
 
 /* Utilidades */
+
+.correccion {
+    margin-top: 10pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 .correccion span {
     color: rgba(0, 0, 0, 0.562);
