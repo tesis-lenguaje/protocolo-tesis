@@ -9,7 +9,7 @@
 
 - Componer una sintaxis de programación que se ha fácil de entender, para esto se utilizaran los resultados obtenidos del análisis y las sintaxis de lenguajes de programación populares como C#, Java, JavaScript y Python.
 
-- Diseñar la estructura del código de compilación del lenguaje, a través de una arquitectura (Evaluar el tipo de arquitectura y colocarla aquí), utilizando un lenguaje de modelado visual, que facilite su programación.
+- Diseñar la estructura del código de compilación del lenguaje, a través de una arquitectura @!(Evaluar el tipo de arquitectura y colocarla aquí), utilizando un lenguaje de modelado visual, que facilite su programación.
 
 - Programar un prototipo de compilador en C++ básico, utilizando una metodología ágil de desarrollo, SCRUM que permite obtener los mejores resultados con respecto al tiempo de trabajo que se dispone.
 
