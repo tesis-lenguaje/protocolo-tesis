@@ -57,6 +57,13 @@
     }
 
     /* Fin Normas APA */
+
+    /* Componentes */
+    #portada {
+        height: 11.45in;
+        display: flex;
+        align-items: stretch;
+    }
 }
 
 /* Estilos únicos para ver en navegador web */

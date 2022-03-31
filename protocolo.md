@@ -4,7 +4,10 @@
         - Bayardo Falcón
  -->
 
- [[toc]]
+ <!-- [[toc]] -->
+<section id="portada">
+<h1>Desarrollo de un lenguaje de programación con sintaxis en idioma español para estudiantes de la Universidad Nacional de Ingeniería, Nicaragua.</h1>
+</section>
 
 @import secciones/introduccion
 
