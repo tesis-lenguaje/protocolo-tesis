@@ -31,11 +31,21 @@ function readMD(path) {
             let index = line.indexOf(errorTag)
             let message = line.substring(index + errorTag.length)
             errores.push(`${path}:${lineNum}:1 [Error]: ${message}`)
+        } else if (line.indexOf(errorTag + "(") != -1) {
+            let index = line.indexOf(errorTag + "(") + errorTag.length + 1
+            let secondIndex = line.indexOf(")")
+            let message = line.substring(index, secondIndex)
+            errores.push(`${path}:${lineNum}:${index} [Error]: ${message}`)
         }
         else if (line.trim().startsWith(warningTag)) {
             let index = line.indexOf(warningTag)
             let message = line.substring(index + warningTag.length)
             preguntas.push(`${path}:${lineNum}:1 [Pregunta]: ${message}`)
+        } else if (line.indexOf(warningTag + "(") != -1) {
+            let index = line.indexOf(warningTag + "(") + warningTag.length + 1
+            let secondIndex = line.indexOf(")")
+            let message = line.substring(index, secondIndex)
+            errores.push(`${path}:${lineNum}:${index} [Pregunta]: ${message}`)
         }
         lineNum++
     }

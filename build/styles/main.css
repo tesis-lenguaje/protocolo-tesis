@@ -203,6 +203,22 @@ pre code {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.correccion.correccion-enlinea {
+    margin: 0;
+    display: inline;
+}
+.correccion.correccion-enlinea span {
+    padding: 5px 10px 5px 0;
+}
+
+.correccion.correccion-enlinea span::before {
+    padding: 5px 10px;
+}
+
+.correccion span {
+    padding: 5px;
+}
+
 .correccion span {
     color: rgba(0, 0, 0, 0.562);
     padding: 10px 20px;
