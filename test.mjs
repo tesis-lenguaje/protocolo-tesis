@@ -45,7 +45,7 @@ function readMD(path) {
             let index = line.indexOf(warningTag + "(") + warningTag.length + 1
             let secondIndex = line.indexOf(")")
             let message = line.substring(index, secondIndex)
-            errores.push(`${path}:${lineNum}:${index} [Pregunta]: ${message}`)
+            preguntas.push(`${path}:${lineNum}:${index} [Pregunta]: ${message}`)
         }
         lineNum++
     }
