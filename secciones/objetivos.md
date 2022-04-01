@@ -2,17 +2,17 @@
 
 ## General
 
-- Desarrollar de un lenguaje de programación con una sintaxis en idioma español para estudiantes de la Universidad Nacional de Ingeniería, Nicaragua.
+- Desarrollar un lenguaje de programación con una sintaxis en idioma español para estudiantes de la sede regional UNI Norte, Estelí.
 
 ## Específicos
-- Analizar la población estudiantil de la universidad nacional de ingeniería a través de encuestas sobre logica, utilizando como muestra a estudiantes de primer ingreso de la carreras ingeniería en sistemas e industrial en el Recinto Augusto C. Sandino.
+- Analizar las habilidades concernientes a programación de la población estudiantil de la sede regional UNI Norte a través de encuestas, utilizando como muestra a estudiantes de primer ingreso de la carreras ingeniería en sistemas e industrial.
 
-- Componer una sintaxis de programación que sea fácil de entender, utilizando los resultados obtenidos del análisis e inspirada en lenguajes de programación populares como C#, Java, JavaScript y Python.
+- Definir la sintaxis del lenguaje de programación, utilizando los resultados obtenidos en el análisis, e inspirada por los lenguajes mas populares en el campo de desarrollo de _Software_.
 
-- Diseñar la arquitectura basada en [LLVM](llvm.org) del código de compilación del lenguaje, utilizando el lenguaje de modelado visual UML, que facilite su programación
-@? ^ (Mejorar esta ultima linea)
+- Diseñar la arquitectura de la compilación del lenguaje basandose en [LLVM](llvm.org), utilizando el lenguaje de modelado visual UML.
 
-- Programar un prototipo básico del compilador en el lenguaje @?(rust|C++), utilizando la metodología de desarrollo ágil SCRUM.
+- Programar el prototipo del compilador en el lenguaje rust, utilizando la metodología de desarrollo ágil SCRUM.
 
-- Validar la calidad del prototipo a través de pruebas unitarias y de integración, como también pruebas más complejas de caja negra. @?(rust hace sus propias pruebas | C++ -> google-test)
+- Validar la calidad del prototipo a través de pruebas unitarias, de integración y de caja negra.
+<!-- Las pruebas serán en Rust -->
 
