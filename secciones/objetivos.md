@@ -9,9 +9,10 @@
 
 - Componer una sintaxis de programación que sea fácil de entender, utilizando los resultados obtenidos del análisis e inspirada en lenguajes de programación populares como C#, Java, JavaScript y Python.
 
-- Diseñar la arquitectura basada en [LLVM](llvm.org) del código de compilación del lenguaje, utilizando el lenguaje de modelado visual UML, que facilite su programación. @?(Mejorar esta ultima linea?)
+- Diseñar la arquitectura basada en [LLVM](llvm.org) del código de compilación del lenguaje, utilizando el lenguaje de modelado visual UML, que facilite su programación
+@? ^ (Mejorar esta ultima linea)
 
-- Programar un prototipo básico del compilador en el lenguaje @?(rust|C++), utilizando la metodología ágil de desarrollo SCRUM.
+- Programar un prototipo básico del compilador en el lenguaje @?(rust|C++), utilizando la metodología de desarrollo ágil SCRUM.
 
 - Validar la calidad del prototipo a través de pruebas unitarias y de integración, como también pruebas más complejas de caja negra. @?(rust hace sus propias pruebas | C++ -> google-test)
 
