@@ -6,7 +6,7 @@
 
  <!-- [[toc]] -->
 <section id="portada">
-<h1>Desarrollo de un lenguaje de programación con una sintaxis en idioma español y mas amigable para estudiantes de la Universidad Nacional de Ingeniería, Nicaragua.</h1>
+<h1>Desarrollo de un lenguaje de programación con una sintaxis en idioma español para estudiantes de la sede regional UNI Norte, Esteli.</h1>
 </section>
 
 @import secciones/introduccion
