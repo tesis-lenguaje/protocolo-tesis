@@ -2,3 +2,4 @@
 config.mjs
 **/*.html
 **/*.pdf
+**/.vscode/

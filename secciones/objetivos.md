@@ -2,7 +2,7 @@
 
 ## General
 
-- Desarrollar un lenguaje de programación con una sintaxis en idioma español para estudiantes de la sede regional UNI Norte, Estelí.
+- Desarrollar un lenguaje de programación con una sintaxis en idioma español para estudiantes de la sede regional UNI Norte Augusto C. Sandino, Estelí.
 
 ## Específicos
 - Analizar las habilidades concernientes a programación de la población estudiantil de la sede regional UNI Norte a través de encuestas, utilizando como muestra a estudiantes de primer ingreso de las carreras ingeniería en sistemas e industrial.
