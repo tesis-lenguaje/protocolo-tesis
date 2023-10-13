@@ -2,29 +2,30 @@
     Por:
         - Luis González
         - Bayardo Falcón
+        - Jean Torrez
  -->
 
 <section id="portada">
-<h1>Desarrollo de un lenguaje de programación con una sintaxis en idioma español para estudiantes de la sede UNI Norte Augusto C. Sandino, Estelí.</h1>
+<h1>Propuesta del desarrollo de un lenguaje de programación en español que facilite el aprendizaje de programación en estudiantes de ingeniería de Sistemas de la UNI RUACS.</h1>
 </section>
 
-<!-- @import secciones/introduccion
+@import secciones/introduccion
 
-    @import secciones/antecedentes
+@//import secciones/antecedentes
 
-    @import secciones/justificacion -->
+@//import secciones/justificacion
 
 @import secciones/objetivos
-<!-- 
-    @import secciones/marco_teorico
 
-    @import secciones/hipotesis
+@//import secciones/marco_teorico
 
-    @import secciones/diseno_metodologico
+@//import secciones/hipotesis
 
-    @import secciones/cronograma
+@//import secciones/diseno_metodologico
 
-    @import secciones/bibliografia
+@//import secciones/cronograma
 
-    @import secciones/anexos
--->
+@//import secciones/bibliografia
+
+@//import secciones/anexos
+

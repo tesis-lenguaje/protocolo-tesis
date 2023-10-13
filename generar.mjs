@@ -18,15 +18,14 @@ if (!generador) {
 }
 
 let fullPath = path.resolve(resolveHome(generador))
-console.log(fullPath)
-
-process.chdir("build")
 
 const child = spawn("node", [
     fullPath,
     "-o", "protocolo.pdf",
-    "-t", "./template.html",
-    "../protocolo.md"
+    "-t", "./assets/template.html",
+    "-a", "./build",
+    "-txml", "./assets/layouts/tesis-toc.xsl",
+    "./protocolo.md"
 ])
 
 child.on('message', (message)=>{
