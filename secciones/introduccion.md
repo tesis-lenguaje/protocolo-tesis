@@ -5,3 +5,5 @@ Desde sus origenes, el campo de desarrollo de software ha sido predominantemente
 Esto genera un problema para estudiantes hispanohablantes en el campo tecnológico. Donde el enfoque debería ser enseñar conceptos lógicos o fundamentos de la computación, se toma valioso tiempo traduciendo las palabras y conceptos que serían obvios para un estudiante proveniente de un país de habla inglesa.
 
 Se propone, por tanto, el desarrollo de un lenguaje de programación que tenga español como base. Este incluiría funciones y características comunes en lenguajes existentes, haciendo uso de sintaxis moderna y utilizando conceptos familiares para los hispanohablantes. Para probar su efectividad, es propuesto utilizar este lenguaje como herramienta de enseñanza en la clase de *Introducción a la Programación* en la Universidad Nacional de Ingeniería. Los estudiantes tendrán la oportunidad de aprender los conceptos basicos de programación, evitando las explicaciones innecesarias o traducciones frecuentes que son comunes en el proceso de enseñanza actual.
+
+
