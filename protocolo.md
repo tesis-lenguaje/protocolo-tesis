@@ -6,7 +6,7 @@
  -->
 
 <section id="portada">
-<h1>Propuesta del desarrollo de un lenguaje de programación en español que facilite el aprendizaje de programación en estudiantes de ingeniería de Sistemas de la UNI RUACS.</h1>
+<h1>Propuesta de desarrollo de un lenguaje de programación en español con enfoque didáctico, dirigido a estudiantes de la sede regional UNI Norte Augusto C. Sandino, Estelí.</h1>
 </section>
 
 @import secciones/introduccion

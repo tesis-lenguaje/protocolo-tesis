@@ -2,19 +2,17 @@
 
 ## General
 
-- Proponer el desarrollo de un lenguaje de programación con una sintaxis en idioma español para estudiantes de la sede regional UNI Norte Augusto C. Sandino, Estelí.
+- Proponer el desarrollo de un lenguaje de programación en español con enfoque didáctico, dirigido a estudiantes de la sede regional UNI Norte Augusto C. Sandino, en Estelí.
 
 ## Específicos
-<!-- Evaluar qué opciones hay actualmente al elegir un lenguaje de programación inicial. -->
-- Analizar las habilidades concernientes a programación de la población estudiantil de la sede regional UNI Norte a través de encuestas, utilizando como muestra a estudiantes de primer ingreso de las carreras ingeniería en sistemas e industrial.
 
-- Definir la sintaxis del lenguaje de programación, utilizando los resultados obtenidos en el análisis, e inspirada por los lenguajes mas populares en el campo de desarrollo de _Software_.
+- Examinar las necesidades pedagógicas y propuesta educativa de los estudiantes de introducción a la programación.
 
-- Diseñar la arquitectura de la compilación del lenguaje basandose en [LLVM](llvm.org), utilizando el lenguaje de modelado visual UML.
+- Crear un prototipo incremental del lenguaje de programación, utilizando metodologías de desarrollo ágiles.
 
-- Programar el prototipo del compilador en el lenguaje rust, utilizando la metodología de desarrollo ágil SCRUM.
+- Mostrar los avances del prototipo a los estudiantes para recibir retroalimentación y mejorar los incrementos.
 
-- Validar la calidad del prototipo a través de pruebas unitarias, de integración y de caja negra.
+- Evaluar la efectividad del prototipo a través de pruebas de usabilidad y comparación con otros lenguajes de programación.
 
 <!-- Las pruebas serán en Rust -->
 
