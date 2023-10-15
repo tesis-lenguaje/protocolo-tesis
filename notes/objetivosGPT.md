@@ -1,19 +1,19 @@
 ## Tema
 
-Propuesta de desarrollar un lenguaje de programación que adopte una sintaxis en español y se enfoque en el ámbito pedagógico, específicamente dirigido a los estudiantes de la sede regional UNI Norte Augusto C. Sandino, en Estelí.
+Propuesta de desarrollo de un lenguaje de programación en español con enfoque didáctico, dirigido a estudiantes de la sede regional UNI Norte Augusto C. Sandino, Estelí.
 
 ## Objetivo General
 
-- Proponer el desarrollar un lenguaje de programación que adopte una sintaxis en español y se enfoque en el ámbito pedagógico, específicamente dirigido a los estudiantes de la sede regional UNI Norte Augusto C. Sandino, en Estelí.
+- Proponer el desarrollo de un lenguaje de programación en español con enfoque didáctico, dirigido a estudiantes de la sede regional UNI Norte Augusto C. Sandino, en Estelí.
 
 ## Objetivos Específicos
 
-Examinar las necesidades pedagógicas y propuesta educativa de los estudiantes de introduccion a la progracion.
+Examinar las necesidades pedagógicas y propuesta educativa de los estudiantes de introducción a la programación.
 
 Diseñar una sintaxis en español intuitiva y amigable para facilitar el aprendizaje de la programación.
 
-Crear un prototipo de entorno de programación accesible y adaptado a las capacidades de los estudiantes del campus.
+Crear un prototipo incremental del lenguaje de programación, utilizando metodologías de desarrollo ágiles.
 
-Evaluar en las diferentes fases de elaborcion del prototipo  mediante la retroalimentación de stakeholder para mejorar la experiencia de aprendizaje.
+Mostrar los avances del prototipo a los estudiantes para recibir retroalimentación y mejorar los incrementos.
 
-Realizar ajustes y mejoras en el lenguaje de programación y el entorno educativo basados en hallazgos y recomendaciones.
+Evaluar la efectividad del prototipo a través de pruebas de usabilidad y comparación con otros lenguajes de programación.
