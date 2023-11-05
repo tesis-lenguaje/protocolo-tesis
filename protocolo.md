@@ -11,7 +11,7 @@
 
 @import secciones/introduccion
 
-@//import secciones/antecedentes
+@import secciones/antecedentes
 
 @//import secciones/justificacion
 
