@@ -5,9 +5,9 @@
         - Jean Torrez
  -->
 
-<section id="portada">
+<!-- <section id="portada">
 <h1>Propuesta de desarrollo de un lenguaje de programación en español con enfoque didáctico, dirigido a estudiantes de la sede regional UNI Norte Augusto C. Sandino, Estelí.</h1>
-</section>
+</section> -->
 
 @import secciones/introduccion
 
