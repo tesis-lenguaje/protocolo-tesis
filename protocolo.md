@@ -23,7 +23,7 @@
 
 @import secciones/diseno_metodologico
 
-@//import secciones/cronograma
+@import secciones/cronograma
 
 @import secciones/bibliografia
 
