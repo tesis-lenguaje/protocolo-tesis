@@ -1,0 +1,7 @@
+{
+    "path": ".",
+    "assets": "./assets",
+    "template": "./templates/main.html",
+    "output": "./build",
+    "entry": "protocolo.md"
+}
