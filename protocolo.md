@@ -13,13 +13,13 @@
 
 @import secciones/antecedentes
 
+@import secciones/planteamiento
+
 @import secciones/justificacion
 
 @import secciones/objetivos
 
 @//import secciones/marco_teorico
-
-@//import secciones/hipotesis
 
 @import secciones/diseno_metodologico
 
