@@ -19,7 +19,7 @@
 
 @import secciones/objetivos
 
-@//import secciones/marco_teorico
+@import secciones/marco_teorico
 
 @import secciones/diseno_metodologico
 
