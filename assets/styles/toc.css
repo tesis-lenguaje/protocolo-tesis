@@ -1,0 +1,25 @@
+.toc-row {
+    display: flex;
+    align-items: end;
+    line-height: 1;
+    padding-top: 1em;
+    --indent-size: 1em;
+}
+
+.toc-row-2 {
+    padding-left: var(--indent-size);
+}
+
+.toc-row-3 {
+    padding-left: calc(var(--indent-size) * 2);
+}
+
+.toc-row>* {
+    vertical-align: bottom;
+}
+
+.toc-row .spacer {
+    flex-grow: 1;
+    border-bottom: 1px dotted #000;
+    height: 2px;
+}

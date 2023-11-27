@@ -63,6 +63,8 @@
    se ejecuta. Estos permiten un mayor control sobre la máquina, por lo que el programador puede conseguir un mejor rendimiento y uso eficiente
    de los recursos del sistema.
 
+
+@.salto
 ## Elementos de un lenguaje
 
 1) **Léxica**:
