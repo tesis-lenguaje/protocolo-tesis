@@ -3,5 +3,6 @@
     "assets": "./assets",
     "template": "./templates/main.html",
     "output": "./build",
-    "entry": "protocolo.md"
+    "entry": "protocolo.md",
+    "footer_template": "<div style=\"display: flex!important;min-width:100%;justify-content:end!important;font-size:12px!important;font-family:Arial !important;color:grey!important;padding-right:2cm;margin-bottom:-2.1cm;\" class=\"pdfheader\"><span class=\"pageNumber\"></span></div>"
 }
