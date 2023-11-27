@@ -3,3 +3,4 @@ config.mjs
 **/*.html
 **/*.pdf
 **/.vscode/
+build/
