@@ -12,6 +12,9 @@
 
 - @#ford-ref Ford, B. (2004). *Parsing Expression Grammars: A Recognition-Based Syntactic Foundation* [Gramáticas de expresión analítica: Una base sintáctica basada en el reconocimiento]. Recuperado 21 de noviembre de 2023, de https://bford.info/pub/lang/peg.pdf
 
+<!-- https://manual-latino.readthedocs.io/es/1.3.0/Sobre-Latino.html, Melvin Guerrero, 2020 -->
+- @#latino-ref Guerrero, M. (2020). *Manual de Latino.* [Manual de Latino] Recuperado 21 de noviembre de 2023, de https://manual-latino.readthedocs.io/es/1.3.0/Sobre-Latino.html
+
 - @#spec-ref Jones, D. M. (2008). *Forms of language specification. Examples from commonly used computer languages.* [Formas de especificación de lenguaje. Ejemplos de lenguajes de computadora comúnmente utilizados] Recuperado 21 de noviembre de 2023, de http://www.knosof.co.uk/vulnerabilities/langconform.pdf
 
 - @#basic-ref Kemeny, J. G., & Kurtz, T. E. (Octubre, 1964). *Basic: a manual for BASIC, the elementary algebraic language designed for use with the Dartmouth Time Sharing System (1st ed.)* [BASIC: El lenguaje algebraico elemental para uso con el Sistema de uso compartido de Dartmouth (primera edición)]. Hanover, N.H.: Centro de computación del colegio de Dartmouth. http://bitsavers.trailing-edge.com/pdf/dartmouth/BASIC_Oct64.pdf

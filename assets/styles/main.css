@@ -106,7 +106,7 @@
 /* Normas APA: */
 
 p {
-    text-indent: 5em;
+    /* text-indent: 5em; */
 }
 
 li>p {
@@ -120,7 +120,8 @@ li:not(:first-child)>h1 {
 }
 
 h1:not(:first-child) {
-    page-break-before: always;
+    /* page-break-before: always; */
+    margin-top: 50pt;
 }
 
 a {
