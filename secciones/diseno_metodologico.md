@@ -14,7 +14,7 @@ La muestra son los estudiantes de ingeniería de sistemas de la universidad naci
 - Encuestas a estudiantes de ingeniería de sistemas de la UNI, sede Estelí.
 - Entrevistas con profesores que enseñan clases de programación en la UNI.
 
-## Fuentes de información secundarias
+### Fuentes de información secundarias
 - El temario de la clase de introducción a la programación de la UNI.
 - Libros de texto de programación.
 - Estudios académicos sobre la enseñanza de la programación.
