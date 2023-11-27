@@ -1,5 +1,21 @@
 # Justificación
 
-En el entorno de la universidad nacional de Ing, la creación de un lenguaje de programación en español se justifica en base a la necesidad de ofrecer un ambiente educativo inclusivo y accesible para estudiantes cuya lengua principal es el español. Dada la importancia creciente de las habilidades de programación en el ámbito académico y profesional, proporcionar herramientas en español facilitaría el proceso de aprendizaje y promovería la participación activa de estudiantes de introducción a la programación.
-La diversidad lingüística es un valor esencial en el panorama, y el desarrollo de un lenguaje de programación en español contribuiría a la representación y participación equitativa a generar una comunidad de programadores. Facilitar el acceso a recursos y documentación en español fomentaría la creatividad y la innovación al permitir que una variedad más amplia de perspectivas influya en el desarrollo de software en la universidad.
-la creación de un lenguaje de programación en español no solo tiene el potencial de hacer que la programación sea más accesible para un público diverso, sino que también enriquecería la universidad. Este enfoque no solo se alinea con principios de aprendizaje, sino que también reconoce la importancia de la diversidad lingüística en la era digital, fortaleciendo así la colaboración y la innovación en el campo de la programación.
+<!-- 
+Guidelines for this section:
+Se debe describir la importancia del trabajo, propósitos y trascendencia.
+¿Para qué sirve?, ¿a quién le sirve?, ¿cómo servirá?
+¿Qué beneficios traerá al país y/o a la universidad y/o la empresa y/o a la
+comunidad.
+¿Cuáles serán los cambios novedosos que trae consigo, además de su
+potencialidad al desarrollarlo.
+
+
+My ideas for the content:
+La creación del lenguaje propuesto...:
+ - Reducirá la barrera de entrada al campo de desarrollo
+ - Contribuirá a los esfuerzos de crear herramientas en español (y no inglés)
+ - Como efecto secundario, proveerá una fuente de información acerca de interpretes y compiladores
+ - Permitirá a la UNI tener una herramienta hecha a la medida
+ - Será código abierto, por lo que cualquier
+
+ -->

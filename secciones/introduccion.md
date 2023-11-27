@@ -18,7 +18,7 @@ programación, evitando las explicaciones innecesarias o traducciones frecuentes
 
 En esta propuesta se definirá la especificación del lenguaje, describiendo su sintaxis, semántica y características. Estos aspectos del
 lenguaje se desarrollarán con base a las necesidades de la población estudiantil y los requerimientos específicos de la clase de
-*introducción a la programación*. Para ello, se desarrollará un prototipo incremental del lenguaje que permita realizar pruebas de
+*introducción a la programación*. Para ello, se creará un prototipo incremental del lenguaje que permita realizar pruebas de
 uso con estudiantes que hayan cursado la clase, y se registrará retroalimentación que ayude a que el lenguaje de programación
 cumpla con los objetivos propuestos. Ademas de esto, en la propuesta se describirán las herramientas y extensiones necesarias para construir
 un ambiente de desarrollo que sea similar al estándar de la industria, a travez de soporte para los editores de texto comunes y un sistema
