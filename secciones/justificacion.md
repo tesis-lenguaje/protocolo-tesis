@@ -1,21 +1,7 @@
 # Justificación
 
-<!-- 
-Guidelines for this section:
-Se debe describir la importancia del trabajo, propósitos y trascendencia.
-¿Para qué sirve?, ¿a quién le sirve?, ¿cómo servirá?
-¿Qué beneficios traerá al país y/o a la universidad y/o la empresa y/o a la
-comunidad.
-¿Cuáles serán los cambios novedosos que trae consigo, además de su
-potencialidad al desarrollarlo.
+En el entorno de la UNI, sede Estelí, la elaboración del lenguaje de programación propuesto reduciría la barrera de entrada al campo de desarrollo de software, contribuyendo a un ambiente educacional más inclusivo y accesible para estos estudiantes. Tomando en cuenta la creciente demanda de habilidades en programación en el ámbito académico y profesional, el lenguaje de programación propuesto facilitaría el proceso de aprendizaje y abriría más oportunidades para los estudiantes y personal docente de la sede norte de la UNI.
 
+Además de esto, el desarrollo de un lenguaje de programación de este tipo aportaría a la diversidad lingüística en el panorama de la programación, generando una comunidad de programadores más equitativa y representativa. Facilitar el acceso a recursos y documentación en español fomentaría la creatividad y la innovación al permitir que una variedad más amplia de perspectivas influya en el desarrollo de software en la universidad. Y ya que el prototipo como la implementación final serán de código abierto, los estudiantes de introducción a la programación que aprendan acerca de interpretes y compiladores tendrán una fuente de información directa sobre la que aprender y experimentar.
 
-My ideas for the content:
-La creación del lenguaje propuesto...:
- - Reducirá la barrera de entrada al campo de desarrollo
- - Contribuirá a los esfuerzos de crear herramientas en español (y no inglés)
- - Como efecto secundario, proveerá una fuente de información acerca de interpretes y compiladores
- - Permitirá a la UNI tener una herramienta hecha a la medida
- - Será código abierto, por lo que cualquier
-
- -->
+En términos de innovación, no hay registros de un proyecto similar que haya sido realizado en Nicaragua, así que su desarrollo sería un paso adelante en el campo de la tecnología en el país que contribuiría no solo a enriquecer el panorama tecnológico nacional, sino también la imagen de la UNI como institución educativa. El lenguaje de programación propuesto en sí tendrá características innovadoras que lo diferenciarán de otros lenguajes. Aparte de que las palabras clave se escriban en español, se propone tener una gramática que se adapte a la del español en lugar del inglés. También utilizaría aspectos de lenguajes de programación modernos que se concentran en comodidad y facilidad de uso.

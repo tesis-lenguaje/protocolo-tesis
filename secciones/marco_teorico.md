@@ -37,43 +37,53 @@
    lenguaje o conjunto de instrucciones.
 
 1) **Interprete**:
-   Un interprete es un programa que procesa el código escrito en el lenguaje de programación fuente y ejecuta cada instrucción de manera
-   inmediata. Los interpretes también suelen incluir un modo interactivo llamado ciclo de lectura, evaluación e impresión (REPL) que permite
-   introducir instrucciones individuales que se ejecutan inmediatamente. A diferencia de un compilador, el programa interprete necesita estar
-   presente en la máquina donde se ejecuta el programa, pero esto también significa que el programador no necesita preocuparse por soportar las arquitecturas de máquina del ambiente de ejecución. En algunos casos, un interprete puede tener un aspecto de compilación si se combina con
-   una máquina virtual.
+   "Un interprete es un programa de computadora que ejecuta o lleva a cabo instrucciones escritas en un lenguaje de programación"
+   [(Alegsa, 2023)](#alegsa-ref). Los interpretes también suelen incluir un modo interactivo llamado ciclo de lectura, evaluación e
+   impresión (REPL) que permite introducir instrucciones individuales que se ejecutan inmediatamente. A diferencia de un compilador, el
+   programa interprete necesita estar presente en la máquina donde se ejecuta el programa, pero esto también significa que el programador no
+   necesita preocuparse por soportar las arquitecturas de máquina del ambiente de ejecución. En algunos casos, un interprete puede tener un
+   aspecto de compilación si se combina con una máquina virtual.
 
-1) **Máquina virtual**:
-   La máquina virtual es un programa que simula una computadora, definiendo su propio conjunto de instrucciones y arquitectura. Toma una serie
-   de instrucciones en forma de un arreglo de bytes (Bytecode) y las ejecuta. El Bytecode y sus instrucciones es un lenguaje intermedio, un
-   lenguaje que sirve como puente entre código fuente original y código de máquina. Una máquina virtual es útil para que interpretes generen
+    > [...] la principal desventaja de los intérpretes, es que cuando un programa es interpretado, suele ejecutarse más lento que si el
+    mismo programa estuviese compilado. Esto se debe a que el intérprete debe analizar cada sentencia en el programa en cada ejecución (un
+    análisis en tiempo real) [(Alegsa, 2023)](#alegsa-ref).
+
+
+2) **Máquina virtual**:
+   La máquina virtual es un programa que simula una computadora, definiendo su propio conjunto de instrucciones y arquitectura. De acuerdo a
+   [Azure (2023)](#azure-ref), la virtualización es el proceso de crear una versión basada en software o virtual de un equipo, con
+   cantidades dedicadas de CPU, memoria y almacenamiento que se toman prestadas de un equipo host físico. Toma una serie de instrucciones en
+   forma de un arreglo de bytes (Bytecode) y las ejecuta. El Bytecode y sus instrucciones es un lenguaje intermedio, un lenguaje que sirve
+   como puente entre código fuente original y código de máquina. Una máquina virtual es útil para que interpretes generen
    código que pueda ejecutarse con más rapidez y eficiencia. También permite utilizar técnicas de optimización similares a las que un
    compilador utilizaría con código de máquina.
 
-1) **Lenguaje de programación de alto nivel**:
+3) **Lenguaje de programación de alto nivel**:
    El nivel de abstracción de un lenguaje de programación se refiere a qué tan cerca están los conceptos y estructuras de este lenguaje al
-   lenguaje de máquina en el que se ejecuta el programa. Un lenguaje de programación de alto nivel es aquel cuyos conceptos y estructuras son
-   más abstractos o alejados de la máquina, haciéndolo más fácil de comprender para un humano. Un lenguaje de alto nivel generalmente hace más
-   trabajo por el programador, permitiendo que se concentre en la lógica y estructura del programa. Es relevante mencionar que el nivel de
-   abstracción es un concepto relativo, siendo el código de máquina el nivel más bajo de abstracción, y cualquier lenguaje que haga más fácil
-   escribir programas que código de máquina es un lenguaje de *más* alto nivel que este.
+   lenguaje de máquina en el que se ejecuta el programa. "Los lenguajes de programación de alto nivel se caracterizan porque su estructura
+   semántica es muy similar a la forma como escriben los humanos" [(Ceballos, 2004)](#ceballos-ref). Un lenguaje de alto nivel generalmente
+   hace más trabajo por el programador, permitiendo que se concentre en la lógica y estructura del programa. Es relevante mencionar que el
+   nivel de abstracción es un concepto relativo, siendo el código de máquina el nivel más bajo de abstracción, y cualquier lenguaje que haga
+   más fácil escribir programas que código de máquina es un lenguaje de *más* alto nivel que este.
 
-1) **Lenguaje de programación de bajo nivel**:
-   Un lenguaje de programación de bajo nivel es aquel cuyos conceptos y estructuras se asemejan más al lenguaje de máquina en el que el programa
-   se ejecuta. Estos permiten un mayor control sobre la máquina, por lo que el programador puede conseguir un mejor rendimiento y uso eficiente
-   de los recursos del sistema.
+4) **Lenguaje de programación de bajo nivel**:
+   "Un lenguaje de programación de bajo nivel es el que proporciona poca o ninguna abstracción del microprocesador de una computadora"
+   [(Ceballos, 2004)](#ceballos-ref). Estos permiten un mayor control sobre la máquina, por lo que el programador puede conseguir un mejor
+   rendimiento y uso eficiente de los recursos del sistema.
 
 
 @.salto
 ## Elementos de un lenguaje
 
 1) **Léxica**:
-   La léxica de un lenguaje de programación se refiere al aspecto textual o literal de este. Es decir, a los caracteres que se escriben y cómo
-   estos son procesados para encontrar trozos de información (llamados "tokens") que el lenguaje puede ver como únicos o relevantes. Por
-   ejemplo, las reglas léxicas de un lenguaje de programación pueden decir que un espacio o un salto de linea no son relevantes, pero cuando
-   encuentra una serie continua de dígitos los reconoce como un token relevante, de tipo número. Es en este elemento del lenguaje donde se
-   controla que toda la información escrita en el código sea al menos válidamente reconocida como un aspecto del lenguaje, pero no se concentra
-   en verificar si ese token está ubicado correctamente en el contexto del programa.
+   La léxica de un lenguaje de programación se refiere al aspecto textual o literal de este. Es decir, a los caracteres que se escriben y
+   cómo estos son procesados para encontrar trozos de información (llamados "tokens") que el lenguaje puede ver como únicos o relevantes.
+   Por ejemplo, las reglas léxicas de un lenguaje de programación pueden decir que un espacio o un salto de linea no son relevantes, pero
+   cuando encuentra una serie continua de dígitos los reconoce como un token relevante, de tipo número. Es en este elemento del lenguaje
+   donde se controla que toda la información escrita en el código sea al menos válidamente reconocida como un aspecto del lenguaje, pero no
+   se concentra en verificar si ese token está ubicado correctamente en el contexto del programa. "Siempre hay que tener en cuenta que
+   existen algunos identificadores o palabras dentro de cada lenguaje que vienen definidos como parte del lenguaje, como lo haríamos en
+   algún idioma o lenguaje natural" [(Juventino, 2022)](#lexico-ref).
 
 1) **Sintaxis**:
    La sintaxis del lenguaje es el conjunto de reglas que define las combinaciones válidas de tokens. La sintaxis, o gramática, del lenguaje de
@@ -83,20 +93,20 @@
 
 1) **Semántica**:
    De acuerdo a [Nystrom (2023)](#nystrom-ref), "donde un analizador sintáctico solo dice si un programa es gramaticalmente correcto [...],
-   el análisis semántico va más allá y comienza a descifrar qué significan realmente las piezas del programa". La semántica también se encarga
-   de definir el comportamiento del lenguaje, es decir, qué ocurrirá cuando se ejecute una pieza de código. Dependiendo de la implementación,
-   algunos aspectos de la semántica pueden evaluarse antes de generar el ejecutable y otros pueden ocurrir durante la ejecución del programa. 
-   Por ejemplo, la semántica de un lenguaje puede definir que la operación de suma solo puede ocurrir entre elementos del mismo tipo. Si
-   asumimos que en este lenguaje los números enteros y números decimales tienen tipos diferentes, la expresión `30 + 10.0` sería
-   sintácticamente válida pero semánticamente incorrecta.
+   el análisis semántico va más allá y comienza a descifrar qué significan realmente las piezas del programa". La semántica también se
+   encarga de definir el comportamiento del lenguaje, es decir, qué ocurrirá cuando se ejecute una pieza de código. Dependiendo de la
+   implementación, algunos aspectos de la semántica pueden evaluarse antes de generar el ejecutable y otros pueden ocurrir durante la
+   ejecución del programa. Por ejemplo, la semántica de un lenguaje puede definir que la operación de suma solo puede ocurrir entre
+   elementos del mismo tipo. Si asumimos que en este lenguaje los números enteros y números decimales tienen tipos diferentes, la expresión
+   `30 + 10.0` sería sintácticamente válida pero semánticamente incorrecta.
 
 ## Herramientas
 
 1) **Gramáticas de expresión analítica (PEG)**:
    Las PEG son un lenguaje formal con el que se puede especificar la sintaxis de un lenguaje. Proveen un formato con el que comunicar sin
-   ambigüedad las reglas gramaticales del lenguaje de programación. Son especialmente útiles porque funcionan a la vez como una especificación
-   y como una herramienta para la implementación, porque su formato puede ser procesado por un generador de analizadores sintácticos y
-   convertido en una implementación funcional [(Ford, 2004)](#ford-ref).
+   ambigüedad las reglas gramaticales del lenguaje de programación. Son especialmente útiles porque funcionan a la vez como una
+   especificación y como una herramienta para la implementación, porque su formato puede ser procesado por un generador de analizadores
+   sintácticos y convertido en una implementación funcional [(Ford, 2004)](#ford-ref).
 
 1) **Generador de analizadores sintácticos**:
    Son programas que permiten tomar una especificación de sintaxis escrita en un lenguaje formal y generan una implementación de analizador
@@ -104,10 +114,10 @@
    programación.
 
 1) **Combinador de analizadores sintácticos**:
-   Es un método alternativo para construir analizadores sintácticos, y consiste en escribir funciones pequeñas que se encargan de una parte única
-   del proceso de análisis, y luego combinarlas de manera que sean capaces de procesar conceptos y estructuras complejas. Este método es menos
-   automatizado que el uso de un generador de analizador sintáctico, pero significa que al diseñar el lenguaje se tiene mayor control sobre
-   el procesado de código fuente, principalmente a la hora de generar reportes y mensajes de error.
+   Es un método alternativo para construir analizadores sintácticos, y consiste en escribir funciones pequeñas que se encargan de una parte
+   única del proceso de análisis, y luego combinarlas de manera que sean capaces de procesar conceptos y estructuras complejas. Este método
+   es menos automatizado que el uso de un generador de analizador sintáctico, pero significa que al diseñar el lenguaje se tiene mayor
+   control sobre el procesado de código fuente, principalmente a la hora de generar reportes y mensajes de error.
 
 1) **Rust**:
    Rust es un lenguaje de programación de propósito genera, compilado y relativamente moderno que se enfoca en la seguridad y el rendimiento.
@@ -120,9 +130,10 @@
    asegura que la gramática del lenguaje es exactamente como se define en la especificación.
 
 3) **Nom**:
-   Nom es una librería de Rust que facilita la creación de combinadores de analizadores sintácticos. Provee un formato de trabajo estándar
-   a la hora de escribir funciones que procesan y analizan el código fuente. Nom permite tener más control sobre el proceso de análisis,
-   pero significa escribir más código y la posibilidad de cometer errores al implementar la gramática del lenguaje.
+   Nom es una librería de Rust que facilita la creación de combinadores de analizadores sintácticos [(Nominomicon, 2023)](#nominomicon-ref).
+   Provee un formato de trabajo estándar a la hora de escribir funciones que procesan y analizan el código fuente. Nom permite tener más
+   control sobre el proceso de análisis, pero significa escribir más código y la posibilidad de cometer errores al implementar la gramática
+   del lenguaje.
 
 ## Metodología
 
@@ -140,17 +151,19 @@
 3) **Sprint**:
    Es el evento principal de Scrum, un periodo de tiempo fijo en el que se desarrolla un incremento del producto. Según la guía de scrum,
    durante el sprint no se deben realizar cambios que afecten el objetivo del sprint, la calidad del producto no debe disminuir, el backlog
-   del producto se puede ajustar según sea necesario y el alcance del sprint puede ser clarificado o renegociado con el product owner; cada sprint
-   puede considerarse un proyecto pequeño por sí solo [(Schwaber y Sutherland, 2020)](#scrum-guide-ref). Durante el sprint se realizan
-   reuniones diarias, llamadas daily scrum, para sincronizar al equipo y planificar las tareas del día.
+   del producto se puede ajustar según sea necesario y el alcance del sprint puede ser clarificado o renegociado con el product owner; cada
+   sprint puede considerarse un proyecto pequeño por sí solo [(Schwaber y Sutherland, 2020)](#scrum-guide-ref). Durante el sprint se
+   realizan reuniones diarias, llamadas daily scrum, para sincronizar al equipo y planificar las tareas del día.
 
 4) **Backlog**:
    En Scrum hay un backlog de producto, que se refiere a la lista creciente de requerimientos que el producto final debe cumplir, y un
-   backlog del sprint, que es el conjunto de objetivos y tareas que se deben alcanzar para considerar un sprint como exitoso [(Schwaber y Sutherland, 2020)](#scrum-guide-ref).
+   backlog del sprint, que es el conjunto de objetivos y tareas que se deben alcanzar para considerar un sprint como exitoso
+   [(Schwaber y Sutherland, 2020)](#scrum-guide-ref).
 
 6) **Product owner**:
    El product owner, o dueño del produccto, es quien se encarga de definir los requerimientos del producto, priorizarlos y asegurarse de que
-   el equipo los entienda. También es quien se encarga de aceptar o rechazar el producto final del sprint [(Schwaber y Sutherland, 2020)](#scrum-guide-ref).
+   el equipo los entienda. También es quien se encarga de aceptar o rechazar el producto final del sprint
+   [(Schwaber y Sutherland, 2020)](#scrum-guide-ref).
 
 7) **Scrum master**:
    Es quien se encarga de asegurar que el equipo siga las reglas de Scrum, que se alcance el objetivo del sprint y cualquier impedimento que

@@ -1,8 +1,14 @@
 # Bibliografía
 
-<!-- Creg Baker 2023, Course notes for "Comparative programming languages", https://ggbaker.ca/prog-langs/content/lang-basics.html retrieved november 22, 2023 -->
+- @#lexico-ref Juventino, J. (2022). *Léxico.* [Léxico] En Lenguaje de programación orientado a objetos con Java. Portal Académico del CCH, UNAM. https://portalacademico.cch.unam.mx/cibernetica2/programacion-java/lexico
+
+- @#alegsa-ref Alegsa. (2023). *Alegsa.* [Alegsa] Recuperado 22 de noviembre de 2023, de https://www.alegsa.com.ar/Dic/interprete.php#gsc.tab=0
+
+- @#azure-ref Azure. (2023). *Azure.* Recuperado 24 de noviembre de 2023, de https://azure.microsoft.com/es-mx/resources/cloud-computing-dictionary/what-is-a-virtual-machine
 
 - @#baker-ref Baker, G. G. (2023). *Course notes for "Comparative programming languages"* [Notas del curso "Lenguajes de programación comparados"]. Recuperado 22 de noviembre de 2023, de https://ggbaker.ca/prog-langs/content/lang-basics.html
+
+- @#ceballos-ref Ceballos, F. J. (2004). *Enciclopedia del lenguaje C.* [Enciclopedia del lenguaje C] México: Alfaomega/RaMa. Recuperado 25 de Noviembre de 2023, de https://programas.cuaed.unam.mx/repositorio/moodle/pluginfile.php/1023/mod_resource/content/1/contenido/index.html
 
 - @#citrine-ref Citrine. (2023). *Citrine.* [Citrine] Recuperado 20 de noviembre de 2023, de http://citrine-lang.org
 
