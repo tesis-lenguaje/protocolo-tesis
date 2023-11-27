@@ -10,7 +10,7 @@
     body {
         /* max-width: 16.51cm; */
         /* margin: 0 auto; */
-        margin: 2.5cm;
+        /* margin: 2.5cm; */
         line-height: 2;
     }
 
@@ -67,6 +67,15 @@
         height: 11.45in;
         display: flex;
         align-items: stretch;
+    }
+
+    @page {
+        size: letter portrait;
+        margin: 0;
+        margin-top: 2.5cm;
+        margin-bottom: 2.5cm;
+        margin-right: 2.5cm;
+        margin-left: 3cm;
     }
 }
 
