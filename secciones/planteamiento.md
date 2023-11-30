@@ -1,8 +1,11 @@
 # Planteamiento del problema
 
-Los docentes de la carrera de ingeniería de sistema en el proceso educativo de enseñanza de la programación, se enfrentan varios desafíos que impactan significativamente la comprensión y aplicación de los conceptos por parte de los estudiantes. Esta dificultad se manifiesta debido a que una gran cantidad de recursos, herramientas y lenguajes de programación utilizados en el ámbito educativo están principalmente en inglés, mientras que parte de la población estudiantil presenta limitaciones en sus habilidades lingüísticas en este idioma.
-
-Esta diferencia crea obstáculos significativos en el acceso, comprensión y aplicación efectiva de los conceptos de programación para estos estudiantes. A continuación, profundizaremos en este problema para comprender su alcance y sus implicaciones en el proceso de aprendizaje.
+Los docentes de programación en la carrera de ingeniería de sistema se enfrentan varios desafíos que impactan significativamente la
+comprensión y aplicación de los conceptos por parte de los estudiantes. Esta dificultad se manifiesta debido a que una gran cantidad de
+recursos, herramientas y lenguajes de programación utilizados en el ámbito educativo están principalmente en inglés, mientras que parte de
+la población estudiantil presenta limitaciones en sus habilidades lingüísticas en este idioma. Esta diferencia crea obstáculos
+significativos en el acceso, comprensión y aplicación efectiva de los conceptos de programación para estos estudiantes. A continuación,
+profundizaremos en este problema para comprender su alcance y sus implicaciones en el proceso de aprendizaje.
 
 **Dificultades en la Sintaxis y Terminología:** Los lenguajes mas usados de la programación, poseen una sintaxis en ingles por lo que para un estudiante que comienzan a estudiar programación y posee pocos conocimientos del idioma y además no conoce los conceptos de la programación, su aprendizaje se ve afectado ya que no encuentra una relación clara entre los conceptos. 
 
