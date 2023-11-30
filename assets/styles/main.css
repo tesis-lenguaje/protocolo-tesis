@@ -11,9 +11,10 @@
 
     /* Normas APA */
     body {
-        line-height: 2.9;
+        line-height: 2;
         margin: 0;
         padding: 0;
+        text-align: justify;
     }
 
     h1 {
@@ -36,7 +37,6 @@
     }
 
     h3 {
-        font-style: italic;
         font-weight: bold;
     }
 
