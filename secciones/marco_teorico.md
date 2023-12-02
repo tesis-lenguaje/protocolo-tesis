@@ -97,7 +97,7 @@ encarga de definir el comportamiento del lenguaje, es decir, qué ocurrirá cuan
 implementación, algunos aspectos de la semántica pueden evaluarse antes de generar el ejecutable y otros pueden ocurrir durante la
 ejecución del programa. Por ejemplo, la semántica de un lenguaje puede definir que la operación de suma solo puede ocurrir entre
 elementos del mismo tipo. Si asumimos que en este lenguaje los números enteros y números decimales tienen tipos diferentes, la expresión
-`30 + 10.0` sería sintácticamente válida pero semánticamente incorrecta.
+"30 + 10.0" sería sintácticamente válida pero semánticamente incorrecta.
 
 ## Herramientas
 

@@ -12,9 +12,8 @@ aprenden a programar en un entorno lingüístico distinto del suyo. Es en este c
 lenguaje de programación en español, diseñado específicamente con un enfoque didáctico dirigido a los estudiantes de la UNI Norte.
 
 El desarrollo de un lenguaje de programación de este tipo también aportaría a la diversidad lingüística en el panorama de la programación,
-generando una comunidad de programadores más equitativa y representativa. Facilitar el acceso a recursos y documentación en español
-fomentaría la creatividad y la innovación al permitir que una variedad más amplia de perspectivas influya en el desarrollo de software en la
-universidad.
+generando una comunidad de programadores más equitativa y representativa, y fomentaría la creatividad e innovación al permitir que una
+variedad más amplia de perspectivas influya en el desarrollo de software en la universidad.
 
 No hay registros de un proyecto similar desarrollado en Nicaragua, por lo que su desarrollo sería un paso adelante en el campo de la
 tecnología en el país que contribuiría no solo a enriquecer el panorama tecnológico nacional, sino también la imagen de la

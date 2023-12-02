@@ -38,6 +38,5 @@ Se creará un prototipo inicial que cubra las necesidades más importantes luego
 ### Evaluación del prototipo
 Se planificará una reunión con un grupo de estudiantes para que prueben el prototipo y den retroalimentación sobre su usabilidad. Se observarán aspectos como la facilidad de uso, la comprensión de la sintaxis y la familiaridad con los conceptos de programación. 
 
-@.salto
 ### Interpretación de resultados
 Con base a la retroalimentación recopilada se realizarán pruebas de usabilidad, comparando el prototipo con otros lenguajes de programación, para evaluar la efectividad del prototipo.
