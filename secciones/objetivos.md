@@ -2,7 +2,7 @@
 
 ## General
 
-- Proponer el desarrollo de un lenguaje de programación en español con enfoque didáctico, dirigido a estudiantes de la sede regional UNI Norte Augusto C. Sandino, en Estelí.
+- Proponer el desarrollo de un lenguaje de programación en español con enfoque didáctico, dirigido a estudiantes de la sede regional UNI Norte, Estelí.
 
 ## Específicos
 
