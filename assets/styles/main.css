@@ -1,23 +1,28 @@
 /* Estilos únicos para exportar a pdf */
 @media print
 {
+    :root {
+        font-size: 18pt;
+    }
+    
     html * {
         font-family: Arial, Helvetica, sans-serif;
     }
 
     html, body, h2, h3, h4 {
-        font-size: 12pt;
+        font-size: 1rem;
     }
 
     /* Normas APA */
     body {
-        line-height: 2.9;
+        line-height: 1.72;
         margin: 0;
         padding: 0;
+        text-align: justify;
     }
 
     h1 {
-        font-size: 14pt;
+        font-size: 1rem;
         text-align: center;
     }
 
@@ -36,7 +41,6 @@
     }
 
     h3 {
-        font-style: italic;
         font-weight: bold;
     }
 
@@ -60,7 +64,7 @@
     }
 
     [contador]::before {
-        font-size: 14pt;
+        font-size: 1.1rem;
     }
 
     /* Fin Normas APA */
@@ -79,6 +83,21 @@
         margin-bottom: 2.5cm;
         margin-right: 2.5cm;
         margin-left: 3cm;
+    }
+
+    #chrono {
+        display: flex;
+        justify-content: center;
+    }
+
+    #chrono img {
+        /* The image has to fit a page */
+        height: 33cm;
+        object-fit: contain;
+    }
+
+    .att-title {
+        text-align: center;
     }
 }
 
@@ -101,6 +120,18 @@
 
     [contador]::before {
         font-size: 1.1em;
+    }
+
+    #chrono {
+        display: flex;
+        justify-content: center;
+    }
+
+    #chrono img {
+        max-width: 100%;
+        max-height: 60vw;
+        object-fit: contain;
+        transform: rotate(90deg);
     }
 }
 

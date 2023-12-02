@@ -1,9 +1,24 @@
 # Justificación
 
-En el entorno de la UNI, sede Estelí, la elaboración del lenguaje de programación propuesto reduciría la barrera de entrada al campo de desarrollo de software, contribuyendo a un ambiente educacional más inclusivo y accesible para estos estudiantes. Tomando en cuenta la creciente demanda de habilidades en programación en el ámbito académico y profesional, el lenguaje de programación propuesto facilitaría el proceso de aprendizaje y abriría más oportunidades para los estudiantes y personal docente de la sede norte de la UNI.
+La enseñanza de programación es fundamental en la formación académica actual, debido a que la tecnología e informática son componentes
+esenciales en diversos campos profesionales. A pesar de esto, los estudiantes ingresando a programas universitarios como el de la UNI Sede
+Regional del Norte se enfrentan al hecho de que en esta disciplina predomina el idioma inglés, lo que introduce una barrera lingüística.
+Esta dificultad lingüística resulta muy problemática en un área donde la comprensión de conceptos técnicos y la aplicación práctica de estos
+conocimientos es crucial, ya que para muchos estudiantes hispanohablantes la complejidad existente de la materia se ve multiplicada cuando
+se le presenta en forma de un idioma extranjero.
 
-La compresion de la logica de programacion se veria mejorada esto debido a que los estudiantes podran leer el codigo y entenderlo con mayor facilidad. Esto es gracias a que se desarrollara con los conceptos que tienen los lenguejes de programacion mas modernos y de alto nivel como tambien el ideoma que este sera desarrollado.
+La necesidad de un enfoque didáctico y accesible se hace evidente al observar los desafíos a los que se enfrentan los estudiantes que
+aprenden a programar en un entorno lingüístico distinto del suyo. Es en este contexto que se ve la necesidad de proponer el desarrollo de un
+lenguaje de programación en español, diseñado específicamente con un enfoque didáctico dirigido a los estudiantes de la UNI Norte.
 
-Además de esto, el desarrollo de un lenguaje de programación de este tipo aportaría a la diversidad lingüística en el panorama de la programación, generando una comunidad de programadores más equitativa y representativa. Facilitar el acceso a recursos y documentación en español fomentaría la creatividad y la innovación al permitir que una variedad más amplia de perspectivas influya en el desarrollo de software en la universidad. Y ya que el prototipo como la implementación final serán de código abierto, los estudiantes de introducción a la programación que aprendan acerca de interpretes y compiladores tendrán una fuente de información directa sobre la que aprender y experimentar.
+El desarrollo de un lenguaje de programación de este tipo también aportaría a la diversidad lingüística en el panorama de la programación,
+generando una comunidad de programadores más equitativa y representativa. Facilitar el acceso a recursos y documentación en español
+fomentaría la creatividad y la innovación al permitir que una variedad más amplia de perspectivas influya en el desarrollo de software en la
+universidad.
 
-En términos de innovación, no hay registros de un proyecto similar que haya sido realizado en Nicaragua, así que su desarrollo sería un paso adelante en el campo de la tecnología en el país que contribuiría no solo a enriquecer el panorama tecnológico nacional, sino también la imagen de la UNI como institución educativa. El lenguaje de programación propuesto en sí tendrá características innovadoras que lo diferenciarán de otros lenguajes. Aparte de que las palabras clave se escriban en español, se propone tener una gramática que se adapte a la del español en lugar del inglés. También utilizaría aspectos de lenguajes de programación modernos que se concentran en comodidad y facilidad de uso.
+No hay registros de un proyecto similar desarrollado en Nicaragua, por lo que su desarrollo sería un paso adelante en el campo de la
+tecnología en el país que contribuiría no solo a enriquecer el panorama tecnológico nacional, sino también la imagen de la
+UNI como institución educativa. El lenguaje de programación propuesto en sí tendrá características innovadoras que lo diferenciarán de otros
+lenguajes. Los estudiantes que utilicen este lenguaje tendrían una mejor comprensión de la lógica de programación al leer el código, ya que
+será desarrollado con la idea de ser intuitivo y fácil de entender. El vocabulario y la gramática se basaría en la del español en lugar del
+inglés. También utilizaría aspectos de lenguajes de programación modernos enfocándose en comodidad y facilidad de uso.

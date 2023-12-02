@@ -1,5 +1,14 @@
 # Cronograma
 
+<!-- Image: assets/imagenes/cronograma.png -->
+<section id="chrono">
+<img src="assets/imagenes/cronograma.png" alt="Cronograma"></img>
+</section>
+
+
+<!--
+The code:
+
 ```mermaid
 gantt
     dateFormat  YYYY-MM-DD
@@ -28,4 +37,4 @@ gantt
     Período de predefenza                  :         inf-pre, 2024-05-13, 2024-05-25
     Correcciones y revisión                :         inf-cor, 2024-05-27, 2024-07-05
     Período de defenza                     :         inf-end, 2024-07-08, 2024-07-20
-```
+``` -->
