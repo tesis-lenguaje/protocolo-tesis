@@ -31,5 +31,5 @@
 
 @import secciones/bibliografia
 
-@import secciones/anexos
+@import secciones/apendice
 

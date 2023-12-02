@@ -155,7 +155,7 @@
     <span class="location">16</span>
 </div>
 <div class="toc-row toc-row-1">
-    <span class="title"><a href="">Anexos</a></span>
+    <span class="title"><a href="">Apéndice</a></span>
     <span class="spacer"></span>
     <span class="location">17</span>
 </div>
