@@ -8,7 +8,7 @@ Inicialmente el lenguaje ensamblador (que es más bien una categoría de lenguaj
 de máquina, dándoles un nombre que más o menos describiera su función. En la década de 1950 apareció el lenguaje FORTRAN (sistema de
 traducción de fórmulas) desarrollado por John W. Backus y su equipo en IBM, con el objetivo de realizar "programación automatizada", es
 decir, FORTRAN sería capaz de generar automáticamente las instrucciones el ensamblador y lenguaje de máquina en lugar de que un humano lo
-escriba [(Backus, 1998)](#fortran-ref). Otro lenguaje que tuvo gran impacto en el campo del desarrollo de *software* for C, desarrollado por
+escriba [(Backus, 1998)](#fortran-ref). Otro lenguaje que tuvo gran impacto en el campo del desarrollo de *software* fue C, desarrollado por
 Dennis Ritchie en 1972. Con este se demostró que programas completos como un sistema operativo podían ser escritos en un lenguaje de alto
 nivel.
 
